@@ -6,7 +6,9 @@ public class TodoList {
      * Add a new item to the list, given a description and priority.
      */
     public void addItem(String description, int priority) {
-        // TODO
+        
+		Todolist.add("walk the dog.");
+        
     }
     
     /*

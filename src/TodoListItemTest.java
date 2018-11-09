@@ -9,9 +9,14 @@ public class TodoListItemTest {
         assertEquals("Walk the dog", item.getDescription());
     }
     
-    @Test
+    private Object getDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Test
     public void testPriority() {
-        assertEquals(3, item.getPriority());
+        assertEquals(3, item.testPriority());
     }
     
     @Test
